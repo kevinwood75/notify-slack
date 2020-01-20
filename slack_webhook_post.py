@@ -13,7 +13,7 @@ now = datetime.now()
 current_time = now.strftime("%H:%M:%S")
 
 # Set the webhook_url to the one provided by Slack when you create the webhook at https://my.slack.com/services/new/incoming-webhook/
-webhook_url = 'https://hooks.slack.com/services/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'
+webhook_url = 'https://hooks.slack.com/services/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'
 slack_data = {'text': "Alert Movement detected @{0} http://secops.woodez.org".format(current_time)}
 
 response = requests.post(
